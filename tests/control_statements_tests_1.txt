@@ -1,0 +1,11 @@
+var first = 0;
+var second = 1;
+
+var n = 10;
+
+for(var i = 0; i<n; i = i + 1) {
+    print second;
+    var temp = first;
+    first = second;
+    second = second + temp;
+}
